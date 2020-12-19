@@ -1,0 +1,114 @@
+ {        font-family: 'Poppins', sans-serif;
+    }
+
+   
+
+    .main {
+
+        height: 70%;
+        width: 70%;
+        margin: 5% auto;
+        background-color: white;
+        border-radius: 15px;
+        border: 1px solid white;
+        box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+ 
+    }
+
+    .main .right {
+        background: url(image/pa.jpg);
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+        border-radius: 0 15px 15px 0;
+    }
+
+    .right .content {
+        width: 90%;
+        margin: auto;
+        padding-top: 70%;
+        color: #000;
+        
+
+       
+    }
+    .right .content i{
+        width: 0px;
+        text-align: center;
+        font-size: 35px;
+        margin-right: 10px;
+    }
+
+    .right .content p {
+        padding: 10px;
+        font-size: 16px;
+        }
+
+
+    .main .left {
+        width: 50%;
+        height: 60%;
+        float: left;
+    }
+
+    .left form {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    form input {
+        width: 90%;
+        margin: auto;
+        padding: 2%;
+        margin-bottom: 10px;
+        display: block;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid rgba(0, 0, 0, .3);
+
+
+    }
+
+    form textarea {
+        width: 90%;
+        margin: 5%;
+        padding: 4%;
+        border: none;
+        resize: none;
+        outline: none;
+        border-bottom: 2px solid rgba(0, 0, 0, .3);
+
+    }
+
+    form input[type=submit] {
+        width: 30%;
+        border: none;
+        outline: none;
+        background: #2c2b2b;
+        border-radius: 15px;
+        font-weight: bolder;
+        color: white;
+        font-size: 19px;
+        padding: 9px 0;
+    }
+
+    .left .title {
+        margin: auto;
+        width: 100%;
+    }
+
+    .title h1 {
+        text-align: center;
+        padding: 50px;
+    }
+    
+footer {
+  margin-top: 1.5rem;
+  background:  #2c2b2b;
+  color: #fff;
+  text-align: left; 
+  padding: 1rem;
+}
+
